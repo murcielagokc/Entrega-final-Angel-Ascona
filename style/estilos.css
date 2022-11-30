@@ -116,3 +116,10 @@ footer{
 .texto-nosotros{
     font-weight: 800;
 }
+.btn-mia{
+    background: #45818e;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
