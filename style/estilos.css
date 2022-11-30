@@ -100,6 +100,8 @@ footer{
     background: #45818e;
     margin-bottom: 20px;
     padding:20px ;
+    justify-content: center;
+    align-items: flex-start
 }
 .enlace-contacto{
     display: block;
