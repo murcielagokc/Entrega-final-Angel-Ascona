@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                Logo Generico
+            </div>
+            <nav>
+                <a href="/index.html" class="nav-enlace">Inicio</a>
+                <a href="/productos.html" class="nav-enlace">Productos</a>
+                <a href="/promociones.html" class="nav-enlace">Promociones</a>
+                <a href="/nosotros.html" class="nav-enlace">Nosotros</a>
+                <a href="/consulta.html" class="nav-enlace">Consultas</a>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <h2>Ingrese sus datos y luego el asunto</h2>
+    <form action="">
+        <div>
+            <label for="nombre-usuario">Nombre y apellido </label>
+            <input type="text" id="nombre-usuario">
+        </div>
+        <div>
+            <label for="email-usuario">Email</label>
+            <input type="email" name="email-usuario" id="">
+        </div>
+        <div>
+            <label for="asunto-usuario">Seleccione el asunto</label>
+            <select name="" id="asunto-usuario">
+                <option value="reclamo">Reclamo</option>
+                <option value="consulta">Consulta</option>
+                <option value="otros">otros</option>
+            </select>
+        </div>
+        <div>
+            <label for="mensaje">Ingrese su mensaje</label>
+            <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="enviar">
+
+        <input type="reset" value="Resetear formulario">
+    </form>
+    <hr>
+    <main>
+        <footer>
+            <div>
+                <h3>Contactanos</h3>
+                <a href="https://www.facebook.com" class="enlace-contacto">facebook</a>
+                <a href="https://web.whatsapp.com" class="enlace-contacto">Celular/whatsapp</a>
+                <a href="https://www.gmail.com" class="enlace-contacto">Email</a>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
