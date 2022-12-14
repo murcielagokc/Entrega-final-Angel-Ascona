@@ -1,125 +1,161 @@
-*{margin: 0%;}
-body{
-    font-family: 'Ubuntu', sans-serif;
-    background: white;
-}
-h2{
-    font-weight: 600;
-    padding: 30px;
-}
-h3{
-    font-weight: 400;
-}
-p{
-    font-weight: 300;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    width: 100%;
-    overflow: hidden;
-    background: #45818e;
-    margin-bottom: 20px;
+body {
+  font-family: "Ubuntu", sans-serif;
+  background: white;
 }
-header .logo{
-    color: black;
-    font-size: 50px;
-    line-height: 200px;
-    float: left;
-    text-decoration: none;
+
+h2 {
+  font-weight: 600;
+  padding: 30px;
 }
-header nav{
-float: right;
-line-height:200px ;
+
+h3 {
+  font-weight: 400;
 }
-.nav-enlace{
-    display: inline-block;
-    color: black;
-    padding: 10px 20px;
-    text-decoration: none;
-    line-height:normal;
-    font-size: 20px;
-    font-weight: bold;
+
+p {
+  font-weight: 300;
 }
-.nav-enlace:hover{
-    background: rgb(58, 187, 187);
-    border-radius: 50px;
+
+header {
+  width: 100%;
+  overflow: hidden;
+  background: #45818e;
+  margin-bottom: 20px;
 }
-.container-mia{
-    margin: 0 auto;
-    width: 50%px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    
+header .logo {
+  color: black;
+  font-size: 50px;
+  line-height: 200px;
+  float: left;
+  text-decoration: none;
 }
-.flex-mia{
-    display: flex;
+header .nav-enlace {
+  display: inline-block;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
 }
-.text-center-mia{
-    text-align: center;
+header .nav-enlace:hover {
+  background: rgb(58, 187, 187);
+  border-radius: 50px;
 }
-.columna-mia{
-    background: rgb(228, 228, 228);
-    color: #333;
-    border: 1px solid #333;
-    margin: 30px;
-    padding:10px ;
-    border-radius:20px ;
-    box-shadow: 2px 2px 1px #888;
-    width: 400px;
-    height: auto;
-    box-sizing: border-box;
+
+.container-mia {
+  margin: 0 auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.precio{
-    font-size: 50px;
-    color: #45818e;
+
+.columna-mia {
+  background: rgb(228, 228, 228);
+  color: #333;
+  border: 1px solid #333;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 1px #888;
+  width: 400px;
+  height: auto;
+  box-sizing: border-box;
 }
-.comprar{
-    background: salmon;
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 3px;
-    margin-bottom: 10px;
+.columna-mia .precio {
+  font-size: 50px;
+  color: #45818e;
 }
-.comprar:hover{
-    background: rgb(247, 100, 84);
+
+.comprar {
+  background: salmon;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  margin-bottom: 10px;
 }
-.mapa{
-padding: 20px;
+
+.comprar:hover {
+  background: rgb(247, 100, 84);
 }
-footer{
-    width: 100%;
-    overflow: hidden;
-    background: #45818e;
-    margin-bottom: 20px;
-    padding:20px ;
-    justify-content: center;
-    align-items: flex-start
+
+.flex-mia {
+  display: flex;
 }
-.enlace-contacto{
-    display: block;
-    text-decoration: none;
-    color: black;
-    width: max-content;
-    padding: 5px;
-    line-height:normal;
-    font-size: 20px;
-    font-weight: bold;
+
+.text-center-mia {
+  text-align: center;
 }
-.enlace-contacto:hover{
-    background: rgb(0, 0, 0);
-    border-radius: 40px;
+
+.mapa {
+  padding: 20px;
 }
-.texto-nosotros{
-    font-weight: 800;
+
+footer {
+  width: 100%;
+  overflow: hidden;
+  background: #45818e;
+  margin-bottom: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: flex-start;
 }
-.btn-mia{
-    background: #45818e;
-    color: #333;
-    text-decoration: none;
-    border-radius: 3px;
-    margin-bottom: 10px;
+footer .enlace-contacto {
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: max-content;
+  padding: 5px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
 }
+footer .enlace-contacto:hover {
+  background: rgb(58, 187, 187);
+  border-radius: 40px;
+}
+
+.texto-nosotros {
+  font-weight: 800;
+}
+
+.btn-mia {
+  background: #45818e;
+  color: #333;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.productos-en-oferta {
+  background: rgb(228, 228, 228);
+  color: #333;
+  border: 1px solid #333;
+  margin: 30px;
+  box-shadow: 2px 2px 1px #888;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.producto-promocion {
+  padding: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.centrado {
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
