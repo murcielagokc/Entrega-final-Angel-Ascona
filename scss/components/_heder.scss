@@ -1,0 +1,13 @@
+header {
+    width: 100%;
+    overflow: hidden;
+    background: $color-primario;
+    margin-bottom: 20px;
+    .logo {
+        color: black;
+        font-size: 50px;
+        line-height: 200px;
+        float: left;
+        text-decoration: none;
+    }
+}

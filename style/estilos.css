@@ -4,14 +4,11 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Ubuntu", sans-serif;
-  background: white;
-}
-
 h2 {
+  font-size: 18px;
   font-weight: 600;
-  padding: 30px;
+  line-height: 1.2;
+  margin: 12px 0;
 }
 
 h3 {
@@ -20,6 +17,21 @@ h3 {
 
 p {
   font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-mia {
+  display: flex;
+}
+
+.centrado {
+  justify-content: center;
+  align-items: center;
 }
 
 header {
@@ -35,7 +47,32 @@ header .logo {
   float: left;
   text-decoration: none;
 }
-header .nav-enlace {
+
+footer {
+  width: 100%;
+  overflow: hidden;
+  background: #45818e;
+  margin-bottom: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+footer .enlace-contacto {
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: max-content;
+  padding: 5px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+}
+footer .enlace-contacto:hover {
+  background: rgb(58, 187, 187);
+  border-radius: 40px;
+}
+
+.nav-enlace {
   display: inline-block;
   color: black;
   padding: 10px 20px;
@@ -44,9 +81,15 @@ header .nav-enlace {
   font-size: 20px;
   font-weight: bold;
 }
-header .nav-enlace:hover {
+
+.nav-enlace:hover {
   background: rgb(58, 187, 187);
   border-radius: 50px;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background: white;
 }
 
 .container-mia {
@@ -74,9 +117,30 @@ header .nav-enlace:hover {
   color: #45818e;
 }
 
+.btn-mia {
+  background: #45818e;
+  color: #333;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.boton-enlace {
+  background: #45818e;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  width: max-content;
+}
+
+.boton-enlace:hover {
+  background: rgb(58, 187, 187);
+}
+
 .comprar {
   background: salmon;
-  display: block;
   padding: 10px;
   color: #fff;
   text-decoration: none;
@@ -88,10 +152,6 @@ header .nav-enlace:hover {
   background: rgb(247, 100, 84);
 }
 
-.flex-mia {
-  display: flex;
-}
-
 .text-center-mia {
   text-align: center;
 }
@@ -100,40 +160,8 @@ header .nav-enlace:hover {
   padding: 20px;
 }
 
-footer {
-  width: 100%;
-  overflow: hidden;
-  background: #45818e;
-  margin-bottom: 20px;
-  padding: 20px;
-  justify-content: center;
-  align-items: flex-start;
-}
-footer .enlace-contacto {
-  display: block;
-  text-decoration: none;
-  color: black;
-  width: max-content;
-  padding: 5px;
-  line-height: normal;
-  font-size: 20px;
-  font-weight: bold;
-}
-footer .enlace-contacto:hover {
-  background: rgb(58, 187, 187);
-  border-radius: 40px;
-}
-
 .texto-nosotros {
   font-weight: 800;
-}
-
-.btn-mia {
-  background: #45818e;
-  color: #333;
-  text-decoration: none;
-  border-radius: 3px;
-  margin-bottom: 10px;
 }
 
 .productos-en-oferta {
@@ -145,17 +173,44 @@ footer .enlace-contacto:hover {
   padding: 10px;
   border-radius: 20px;
   display: flex;
+  width: auto;
+}
+
+.columna-mia-productos {
+  background: rgb(228, 228, 228);
+  color: #333;
+  border: 1px solid #333;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 1px #888;
+  width: 400px;
+  box-sizing: border-box;
+}
+.columna-mia-productos .precio {
+  font-size: 50px;
+  color: #45818e;
 }
 
 .producto-promocion {
-  padding: 10px;
-  flex-direction: row;
-  flex-wrap: wrap;
+  border: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  box-shadow: none !important;
+  height: auto;
+  margin: 0;
+  width: 100%;
 }
 
-.centrado {
-  justify-content: center;
+.conteiner-img {
+  height: 162px;
+  width: 159.5px;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,45 @@
+.productos-en-oferta{
+    background: rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 30px;
+    box-shadow: 2px 2px 1px #888;
+    padding:10px ;
+    border-radius:20px ;
+    display: flex;
+    width: auto;
+}
+.columna-mia-productos{
+    background: rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 30px;
+    padding:10px ;
+    border-radius:20px ;
+    box-shadow: 2px 2px 1px #888;
+    width: 400px;
+    box-sizing: border-box;
+    .precio{
+        font-size: 50px;
+        color: #45818e;
+    }
+}
+.producto-promocion{ 
+        border: none;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        box-shadow: none !important;
+        height: auto;
+        margin: 0;
+        width: 100%;
+    }
+.conteiner-img{
+        height: 162px;
+        width: 159.5px; 
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+}

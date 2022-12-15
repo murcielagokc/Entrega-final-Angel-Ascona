@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 12px 0;
+}
+h3{
+    font-weight: 400;
+}
+p{
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.flex-mia{
+    display: flex;
+}
+.centrado{
+    justify-content: center;
+    align-items: center;
+}
