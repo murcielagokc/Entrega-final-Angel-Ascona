@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bienbenido</title>
+    <title>consultas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
@@ -15,12 +15,15 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style/estilos.css">
+    <meta name="consulta" content="En esta seccion se encontrara el formulario de registro, asi como el de reclamos o consultas">
 </head>
 
 <body>
     <header class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="logo" href="../index.html">logo</a>
+            <a class="logo" href="../index.html">
+                <img class="logo" src="../img/logo-empresa.jpeg" alt="">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,19 +50,30 @@
         </div>
     </header>
     <hr>
+    <section class="formulario-registro">
+        <h2>Registro</h2>
+        <input class="control" type="text" name="nombres" id="nombres" placeholder="Ingrese sus nommbres">
+        <input class="control" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos">
+        <input class="control" type="email" name="correo" id="correo" placeholder="Ingrese su coorreo">
+        <input class="control" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña">
+        <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+        <input class="sub-boton" type="submit" value="Registrar">
+        <p><a href="../index.html">Ya tengo cuenta</a></p>
+    </section>
+    <section class="formulario-consulta">
     <h2>Ingrese sus datos y luego el asunto</h2>
     <form action="">
         <div>
             <label for="nombre-usuario">Nombre y apellido </label>
-            <input type="text" id="nombre-usuario">
+            <input class="control" type="text" id="nombre-usuario">
         </div>
         <div>
             <label for="email-usuario">Email</label>
-            <input type="email" name="email-usuario" id="">
+            <input class="control" type="email" name="email-usuario" id="">
         </div>
         <div>
             <label for="asunto-usuario">Seleccione el asunto</label>
-            <select name="" id="asunto-usuario">
+            <select class="control" name="" id="asunto-usuario">
                 <option value="reclamo">Reclamo</option>
                 <option value="consulta">Consulta</option>
                 <option value="otros">otros</option>
@@ -67,12 +81,13 @@
         </div>
         <div>
             <label for="mensaje">Ingrese su mensaje</label>
-            <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+            <textarea class="control" name="" id="mensaje" cols="30" rows="10"></textarea>
         </div>
-        <input type="submit" value="enviar">
+        <input class="sub-boton" type="submit" value="Enviar">
 
-        <input type="reset" value="Resetear formulario">
+        <input class="sub-boton" type="reset" value="Resetear formulario">
     </form>
+</section>
     <hr>
     <main>
         <footer>

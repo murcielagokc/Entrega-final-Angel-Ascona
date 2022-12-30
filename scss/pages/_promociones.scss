@@ -1,0 +1,33 @@
+.productos-oferta-caja {
+    background: rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px #888;
+    width: 400px;
+    height: auto;
+    box-sizing: content-box;
+
+    .precio {
+        font-size: 50px;
+        color: #45818e;
+    }
+}
+
+.conteiner-img-promocion {
+    height: 162px;
+    width: 159.5px;
+    display: flex;
+    justify-content: row;
+    width: 100%;
+}
+
+.conteiner-promociones {
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

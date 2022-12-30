@@ -1,0 +1,41 @@
+.formulario-registro{
+    width: 400px;
+    background: $color-primario;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    color: white;
+}
+.control{
+    width: 100%;
+    background: #486079;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px;
+    font-size: 10px;
+}
+.formulario-registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.formulario-registro a{
+    color: white;
+    text-decoration: none;
+}
+.formulario-registro a:hover{
+    color: rgb(39, 180, 60);
+    text-decoration: underline;
+}
+.formulario-registro .sub-boton{
+    width: 100%;
+    background: rgb(77, 105, 57);
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
